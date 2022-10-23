@@ -1,0 +1,36 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.age__filter {
+    list-style-type: none;
+    margin-bottom: 1.5rem;
+}
+
+.age__btn {
+    border: 1px solid;
+    background-color: #fff;
+    color: #000;
+    padding: .6em .7em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #555555;
+        color: white;
+    }
+}
+
+.title__age {
+    text-align: center;
+    margin-bottom: .7rem;
+}

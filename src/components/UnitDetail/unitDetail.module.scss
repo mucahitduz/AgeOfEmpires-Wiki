@@ -1,0 +1,33 @@
+.header {
+    font-size: .9rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+
+.table {
+    font-size: 1.1rem;
+    width: 100%;
+    
+}
+
+.table__row {
+    height: 45px;  
+}
+
+.table__left {
+    width: 40%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.table__right {
+    width: 60%;
+    border: 2px solid black;
+    padding-left: .5rem;
+    text-align: center;
+}
