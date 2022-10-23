@@ -36,7 +36,7 @@
 
 ## Live Demo
 
-- [Covid-19 Map](https://md-age-wiki.netlify.app/)
+- [Age of Empires II Wiki](https://md-age-wiki.netlify.app/)
 
 ## Setup
 
