@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Age of Empires II Wiki
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Author of this Document : Mücahit Düz
 
-## Available Scripts
+- Developer : Mücahit Düz
 
-In the project directory, you can run:
+## Used Technologies
 
-### `npm start`
+* ReactJS
+* React Router
+* React Bootstrap
+* Redux Toolkit
+* Material UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Home Page
+![Home Page](https://user-images.githubusercontent.com/83221364/197399042-98b4f8d8-37c2-4ab3-adb8-a051d1153956.png)
 
-### `npm test`
+### Units Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Desktop
+![units-desktop](https://user-images.githubusercontent.com/83221364/197404083-456eacc1-d48f-4f29-8449-aea9ea573146.gif)
 
-### `npm run build`
+#### Mobile
+![Units Mobile](https://user-images.githubusercontent.com/83221364/197404889-4542a321-b785-4d10-b19c-daad68397434.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Unit Details Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Desktop
+![Unit Details Desktop](https://user-images.githubusercontent.com/83221364/197405408-70771cae-3829-4ff0-9f68-06a4613c457d.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Mobile
+![Unit Details Mobile](https://user-images.githubusercontent.com/83221364/197405747-1092cb52-a5da-4678-b140-8ec2176b3c1b.gif)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Live Demo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Covid-19 Map]()
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**1.** Open **Git Bash**
 
-## Learn More
+**2.** Change the current working directory to the location where you want the cloned directory.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**3.** Type the code below
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+ git clone https://github.com/mucahitduz/AgeOfEmpires-Wiki
+```
 
-### Code Splitting
+**4.** Press **Enter** to create the clone of this repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**5.** Install dependencies with the code below
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**6.** Run the command below, open your browser and go to `http://localhost:3000`
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**7.** To test, run the command below (The project does not have 80% test coverage due to lack of time, I will try to expand the test coverage  in the future.)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm test
+```
