@@ -25,8 +25,14 @@
 #### Mobile
 ![Units Mobile](https://user-images.githubusercontent.com/83221364/197404889-4542a321-b785-4d10-b19c-daad68397434.gif)
 
+### Unit Details Page
 
-### Details Page
+### Desktop
+![Unit Details Desktop](https://user-images.githubusercontent.com/83221364/197405408-70771cae-3829-4ff0-9f68-06a4613c457d.gif)
+
+### Mobile
+![Unit Details Mobile](https://user-images.githubusercontent.com/83221364/197405747-1092cb52-a5da-4678-b140-8ec2176b3c1b.gif)
+
 
 ## Live Demo
 
