@@ -9,6 +9,7 @@ const Units = () => {
     <div className={styles.background}>
       <h1 className={styles.title}>Units Page</h1>
       <AgeButtons />
+      <h3 className={styles.title__costs}>Costs</h3>
       <div className="rangeBar">
         <FilterSlider label="wood" />
         <FilterSlider label="food" />

@@ -68,7 +68,6 @@ const unitSlice = createSlice({
               ...state,
               [action.payload.costName]: {
                 checked: state[action.payload.costName].checked,
-                // value: action.payload.payload.value,
               },
             };
           }

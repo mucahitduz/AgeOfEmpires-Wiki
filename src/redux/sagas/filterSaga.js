@@ -1,5 +1,5 @@
 import { put, select, takeEvery } from "redux-saga/effects";
-import { getFiltered, getUnits } from "../features/unitSlice";
+import { getFiltered } from "../features/unitSlice";
 
 function* filter() {
   const state = yield select();
@@ -30,7 +30,6 @@ function* filter() {
   }
   if (state.units.wood.checked) {
     filtered = filterCost("Wood");
-    state.units.gold.checked && (filtered = filterCost("Gold"));
     if (state.units.age !== "All") {
       filtered = filtered.filter((units) => units.age === state.units.age);
     }
@@ -51,7 +50,6 @@ function* filter() {
   yield put(getFiltered(filtered));
 }
 
-//Workers
 export function* watchFilterSaga() {
   yield takeEvery("units/setUnits", filter);
 }

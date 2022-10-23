@@ -8,7 +8,6 @@ export const getCostKeys = (data) => {
   return costKeys.filter((x, i, a) => a.indexOf(x) === i);
 };
 
-//This helper function get cost values in order to show in unit table
 export const getCostValues = (cost) => {
   let costValues = [];
   if (!cost) {

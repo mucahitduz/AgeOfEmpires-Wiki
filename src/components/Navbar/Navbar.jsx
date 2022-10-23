@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./navbar.module.scss";
 
-const Navbar = () => {
+const Navigation = () => {
   return (
     <header>
       <nav className={`${styles.nav} ${styles.container}`}>
@@ -26,4 +26,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;

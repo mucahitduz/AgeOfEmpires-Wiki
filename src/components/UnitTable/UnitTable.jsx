@@ -9,8 +9,6 @@ const UnitTable = () => {
     state.filterData ? state.filterData : state.units
   );
 
-  console.log(units.filterData);
-
   return (
     <div className={styles.header}>
       <div className={styles.container}>
